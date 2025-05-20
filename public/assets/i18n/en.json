@@ -1,0 +1,26 @@
+{
+  "toolbar": {
+    "certified": "ISO 27001:2022 Certification",
+    "home": "Home",
+    "checkin": "Check-in"
+  },
+  "home": {
+    "title": "Home",
+    "welcome": "Welcome to Eventify",
+    "registeredEvents": "Registered Events",
+    "registeredAttendees": "Registered Attendees",
+    "attendancePercentage": "% Attendance"
+  },
+  "checkin": {
+    "title": "Event Check-in",
+    "ticketValidation": "Ticket Validation",
+    "ticketIdentifier": "Ticket Identifier",
+    "checkinBtn": "Check-in",
+    "invalid": "Invalid ticket identifier",
+    "already": "Already checked in"
+  },
+  "notFound": {
+    "message": "Route not found",
+    "back": "Back to Home"
+  }
+}

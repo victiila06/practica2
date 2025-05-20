@@ -1,0 +1,16 @@
+<div class="hero">
+  <h1>{{ 'home.title' | translate }}</h1>
+  <p>{{ 'home.welcome' | translate }}</p>
+</div>
+
+<h2>{{ 'home.registeredEvents' | translate }}</h2>
+
+<div class="columns-container">
+  <div class="column" *ngFor="let pair of eventPairs">
+    <app-event-summary
+      *ngFor="let event of pair"
+      [event]="event"
+      [attendees]="getAttendeesForEvent(event.id)">
+    </app-event-summary>
+  </div>
+</div>

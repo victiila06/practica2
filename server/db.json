@@ -1,0 +1,100 @@
+{
+  "events":[
+    {
+      "id": 1,
+      "name": "Event 1",
+      "description": "Wedding Ceremony",
+      "scheduledAt": "2023-10-01T10:00:00Z"
+    },
+    {
+      "id": 2,
+      "name": "Event 2",
+      "description": "Birthday Party",
+      "scheduledAt": "2023-10-02T15:00:00Z"
+    },
+    {
+      "id": 3,
+      "name": "Event 3",
+      "description": "Conference",
+      "scheduledAt": "2023-10-03T09:00:00Z"
+    },
+    {
+      "id": 4,
+      "name": "Event 4",
+      "description": "Workshop",
+      "scheduledAt": "2023-10-04T13:00:00Z"
+    },
+    {
+      "id": 5,
+      "name": "Event 5",
+      "description": "Concert",
+      "scheduledAt": "2023-10-05T20:00:00Z"
+    }
+  ],
+  "attendees":[
+    {
+      "id": 1,
+      "firstName": "Alice",
+      "lastName": "Smith",
+      "eventId": 1,
+      "ticketIdentifier": "A123",
+      "checkedInAt": "2023-10-01T09:00:00Z"
+    },
+    {
+      "id": 2,
+      "firstName": "Bob",
+      "lastName": "Johnson",
+      "eventId": 2,
+      "ticketIdentifier": "B456",
+      "checkedInAt": null
+    },
+    {
+      "id": 3,
+      "firstName": "Charlie",
+      "lastName": "Brown",
+      "eventId": 3,
+      "ticketIdentifier": "C789",
+      "checkedInAt": null
+    },
+    {
+      "id": 4,
+      "firstName": "David",
+      "lastName": "Wilson",
+      "eventId": 4,
+      "ticketIdentifier": "D012",
+      "checkedInAt": "2023-10-04T12:00:00Z"
+    },
+    {
+      "id": 5,
+      "firstName": "Eve",
+      "lastName": "Davis",
+      "eventId": 5,
+      "ticketIdentifier": "E345",
+      "checkedInAt": "2023-10-05T19:00:00Z"
+    },
+    {
+      "id": 6,
+      "firstName": "Frank",
+      "lastName": "Garcia",
+      "eventId": 1,
+      "ticketIdentifier": "F678",
+      "checkedInAt": null
+    },
+    {
+      "id": 7,
+      "firstName": "Grace",
+      "lastName": "Martinez",
+      "eventId": 2,
+      "ticketIdentifier": "G901",
+      "checkedInAt": null
+    },
+    {
+      "id": 8,
+      "firstName": "Hank",
+      "lastName": "Lopez",
+      "eventId": 3,
+      "ticketIdentifier": "H234",
+      "checkedInAt": null
+    }
+    ]
+}

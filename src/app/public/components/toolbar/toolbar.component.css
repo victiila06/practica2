@@ -1,0 +1,19 @@
+.toolbar-left {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  img {
+    width: 80px;
+    height: 80px;
+  }
+}
+
+.cert-text {
+  font-weight: 500;
+  font-size: 14px;
+  color: white;
+}
+
+.spacer {
+  flex: 1 1 auto;
+}

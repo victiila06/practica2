@@ -1,0 +1,30 @@
+<div class="container">
+  <h1>{{ 'checkin.title' | translate }}</h1>
+
+  <div class="form">
+    <mat-form-field appearance="outline" class="full-width">
+      <mat-label>{{ 'checkin.ticketIdentifier' | translate }}</mat-label>
+      <input matInput [(ngModel)]="ticketIdentifier">
+    </mat-form-field>
+
+    <button mat-raised-button color="primary" (click)="handleCheckIn()">
+      {{ 'checkin.checkinBtn' | translate }}
+    </button>
+  </div>
+
+  <div *ngIf="resultMessage" class="error-message">
+    {{ resultMessage }}
+  </div>
+
+  <div *ngIf="checkedInData" class="result-card">
+    <h2>✅ {{ 'checkin.success' | translate }}</h2>
+    <ul>
+      <li><strong>Event ID:</strong> {{ checkedInData.event.id }}</li>
+      <li><strong>Event Name:</strong> {{ checkedInData.event.name }}</li>
+      <li><strong>Event Description:</strong> {{ checkedInData.event.description }}</li>
+      <li><strong>First Name:</strong> {{ checkedInData.attendee.firstName }}</li>
+      <li><strong>Last Name:</strong> {{ checkedInData.attendee.lastName }}</li>
+      <li><strong>Checked-In At:</strong> {{ checkedInData.attendee.checkedInAt }}</li>
+    </ul>
+  </div>
+</div>

@@ -1,0 +1,15 @@
+<mat-card>
+  <mat-card-header>
+    <mat-card-title>{{ event.name }}</mat-card-title>
+  </mat-card-header>
+
+  <mat-card-content>
+    <p>{{ event.description }}</p>
+  </mat-card-content>
+
+  <mat-card-actions>
+    <p><strong>{{ 'home.registeredAttendees' | translate }}</strong> {{ attendees.length }}</p>
+    <p><strong>{{ 'home.attendancePercentage' | translate }}</strong> {{ attendancePercentage }}%</p>
+  </mat-card-actions>
+</mat-card>
+
